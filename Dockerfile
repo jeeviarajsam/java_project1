@@ -1,4 +1,4 @@
-FROM java:8
+FROM jdk:10
 WORKDIR /var/www/java
 COPY . /var/www/java
 RUN javac Sample.java
