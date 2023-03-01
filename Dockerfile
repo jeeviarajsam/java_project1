@@ -1,4 +1,4 @@
-FROM jdk:10
+FROM openjdk
 WORKDIR /var/www/java
 COPY . /var/www/java
 RUN javac Sample.java
